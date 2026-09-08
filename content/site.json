@@ -1,0 +1,14 @@
+{
+  "platforms": {
+    "instagram": "https://www.instagram.com/beyondgradients/",
+    "youtube": "https://www.youtube.com/@BeyondGradients"
+  },
+  "explanations": [
+    {"title":"How does ChatGPT decide what to say next?","category":"Transformers & LLMs","description":"From a sequence of tokens to a distribution of possibilities. Meet next-token prediction.","visual":"prediction","platform":"youtube","url":null},
+    {"title":"How does attention actually work?","category":"Deep Learning","description":"See how a token combines information from other tokens to build a richer representation.","visual":"attention","platform":"instagram","url":null},
+    {"title":"Why does AI turn words into vectors?","category":"Visual Mathematics","description":"A geometric way to represent language—and why relationships matter more than coordinates.","visual":"vectors","platform":"instagram","url":null},
+    {"title":"How does gradient descent learn?","category":"Machine Learning","description":"Follow the slope, update the parameters, repeat. The idea behind minimizing a loss function.","visual":"descent","platform":"youtube","url":null},
+    {"title":"Why can AI sound confident when it is wrong?","category":"AI Systems","description":"Fluent language is not the same as factual knowledge. Explore the gap between the two.","visual":"confidence","platform":"instagram","url":null},
+    {"title":"What do Queries, Keys and Values actually mean?","category":"Transformers & LLMs","description":"Three learned projections. One mechanism for matching, weighting and combining information.","visual":"qkv","platform":"youtube","url":null}
+  ]
+}

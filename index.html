@@ -1,12 +1,183 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Beyond Gradients</title>
+  <meta name="theme-color" content="#080e19">
+  <meta name="color-scheme" content="dark">
+  <title>Beyond Gradients — Visual Explanations for Modern AI</title>
+  <meta name="description" content="Understand artificial intelligence, machine learning, Transformers and LLMs through intuitive visual explanations with real technical depth.">
+  <link rel="canonical" href="https://beyondgradients.com/">
+  <link rel="icon" type="image/png" href="assets/beyond-grad-logo.png">
+  <link rel="apple-touch-icon" href="assets/beyond-grad-logo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Beyond Gradients">
+  <meta property="og:title" content="Beyond Gradients — Visual Explanations for Modern AI">
+  <meta property="og:description" content="AI and machine learning, explained intuitively, visually and rigorously.">
+  <meta property="og:url" content="https://beyondgradients.com/">
+  <meta property="og:image" content="https://beyondgradients.com/assets/beyond-grad-logo.png">
+  <meta property="og:image:alt" content="Beyond Gradients logo">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Beyond Gradients — Visual Explanations for Modern AI">
+  <meta name="twitter:description" content="AI and machine learning, explained intuitively, visually and rigorously.">
+  <meta name="twitter:image" content="https://beyondgradients.com/assets/beyond-grad-logo.png">
+  <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "EducationalOrganization", "name": "Beyond Gradients", "url": "https://beyondgradients.com", "logo": "https://beyondgradients.com/assets/beyond-grad-logo.png", "description": "Visual explanations for artificial intelligence and machine learning.", "sameAs": ["https://www.instagram.com/beyondgradients/", "https://www.youtube.com/@BeyondGradients"]}
+  </script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <h1>Beyond Gradients</h1>
-  <p>Making AI and machine learning intuitive through visual explanations.</p>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header" data-header>
+    <div class="nav-shell">
+      <a class="brand" href="#top" aria-label="Beyond Gradients home">
+        <span class="brand-mark"><img src="assets/beyond-grad-logo.png" alt="" width="40" height="40"></span>
+        <span>Beyond Gradients</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-menu-toggle>
+        <span class="sr-only">Open navigation</span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+      <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation" data-navigation>
+        <a href="#top">Home</a><a href="#explore">Explore</a><a href="#about">About</a>
+        <span class="nav-divider" aria-hidden="true"></span>
+        <a class="platform-link" data-platform="instagram" href="https://www.instagram.com/beyondgradients/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+        <a class="platform-link" data-platform="youtube" href="https://www.youtube.com/@BeyondGradients" target="_blank" rel="noopener noreferrer">YouTube <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-grid page-shell">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Visual explanations for modern AI</p>
+          <h1 id="hero-title">See what AI<br>is <em>really</em> doing.</h1>
+          <p class="hero-lede">Beyond Gradients turns machine learning, deep learning, Transformers and LLMs into intuitive visual explanations—without losing the technical substance.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#featured">Explore the explanations <span aria-hidden="true">↓</span></a>
+            <a class="button button-quiet" data-platform="youtube" href="https://www.youtube.com/@BeyondGradients" target="_blank" rel="noopener noreferrer">Watch on YouTube <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="hero-index"><span>Understand.</span> Visualize. <span aria-hidden="true">/</span> Go deeper.</p>
+        </div>
+        <div class="attention-visual">
+          <div class="visual-label"><span>01 / Inside the model</span><span>Self-attention</span></div>
+          <svg viewBox="0 0 508 292" role="img" aria-labelledby="attention-title attention-desc">
+            <title id="attention-title">How a token attends to context</title>
+            <desc id="attention-desc">Illustrative attention weights for context: The 5 percent, model 25 percent, uses 15 percent, the 5 percent, context 50 percent. Invented teaching values, not model measurements.</desc>
+            <text class="diagram-label" x="24" y="31">Selected query</text>
+            <rect class="diagram-node active" x="202" y="54" width="104" height="42" rx="4"/>
+            <text class="diagram-text" x="254" y="80" data-query-label>context</text>
+            <path class="diagram-line" data-attention-line d="M254 97 C254 155 54 150 54 212" style="stroke-width:1.45;opacity:0.27"/>
+            <path class="diagram-line" data-attention-line d="M254 97 C254 155 154 150 154 212" style="stroke-width:3.25;opacity:0.55"/>
+            <path class="diagram-line" data-attention-line d="M254 97 C254 155 254 150 254 212" style="stroke-width:2.3499999999999996;opacity:0.41000000000000003"/>
+            <path class="diagram-line" data-attention-line d="M254 97 C254 155 354 150 354 212" style="stroke-width:1.45;opacity:0.27"/>
+            <path class="diagram-line" data-attention-line d="M254 97 C254 155 454 150 454 212" style="stroke-width:5.5;opacity:0.9000000000000001"/>
+            <rect class="diagram-node" x="12" y="212" width="84" height="36" rx="4"/><text class="diagram-text" x="54" y="235">The</text><text class="diagram-weight" data-attention-weight x="54" y="273">5%</text>
+            <rect class="diagram-node" x="112" y="212" width="84" height="36" rx="4"/><text class="diagram-text" x="154" y="235">model</text><text class="diagram-weight" data-attention-weight x="154" y="273">25%</text>
+            <rect class="diagram-node" x="212" y="212" width="84" height="36" rx="4"/><text class="diagram-text" x="254" y="235">uses</text><text class="diagram-weight" data-attention-weight x="254" y="273">15%</text>
+            <rect class="diagram-node" x="312" y="212" width="84" height="36" rx="4"/><text class="diagram-text" x="354" y="235">the</text><text class="diagram-weight" data-attention-weight x="354" y="273">5%</text>
+            <rect class="diagram-node" x="412" y="212" width="84" height="36" rx="4"/><text class="diagram-text" x="454" y="235">context</text><text class="diagram-weight" data-attention-weight x="454" y="273">50%</text>
+          </svg>
+          <div class="token-controls" role="group" aria-label="Choose a query token" hidden><button type="button" data-token="The" aria-pressed="false">The</button><button type="button" data-token="model" aria-pressed="false">model</button><button type="button" data-token="uses" aria-pressed="false">uses</button><button type="button" data-token="the" aria-pressed="false">the</button><button type="button" data-token="context" aria-pressed="true">context</button></div>
+          <p class="visual-note" data-attention-status aria-live="polite">Thicker lines mean greater attention weight. Each token combines information from the sentence.</p>
+          <div class="visual-footer"><span>Illustrative weights · one attention head</span><span>Σ weights = 1</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="topic-strip" aria-label="Topics covered"><div class="ticker-track"><span>Artificial intelligence</span><i></i><span>Machine learning</span><i></i><span>Transformers</span><i></i><span>Large language models</span><i></i><span>Visual mathematics</span></div></section>
+    <section class="section page-shell" id="explore" aria-labelledby="explore-title">
+      <div class="section-heading">
+        <div><p class="kicker">What we explain</p><h2 id="explore-title">The machinery behind<br>modern intelligence.</h2></div>
+        <p>From first principles to current research, we build the intuition you need to understand how AI systems work.</p>
+      </div>
+      <div class="category-grid">
+        <article class="category-card"><span class="category-number">01</span><div><h3>Transformers &amp; LLMs</h3><p>Attention, tokenization, context and the mechanics behind language models.</p></div></article>
+        <article class="category-card"><span class="category-number">02</span><div><h3>Machine Learning</h3><p>How models learn patterns, make predictions and improve from data.</p></div></article>
+        <article class="category-card"><span class="category-number">03</span><div><h3>Deep Learning</h3><p>Neural networks, backpropagation and the architectures shaping AI.</p></div></article>
+        <article class="category-card"><span class="category-number">04</span><div><h3>AI Systems</h3><p>The tools, infrastructure and design choices that turn models into products.</p></div></article>
+        <article class="category-card"><span class="category-number">05</span><div><h3>Visual Mathematics</h3><p>Vectors, probability and optimization made tangible through visual thinking.</p></div></article>
+        <article class="category-card"><span class="category-number">06</span><div><h3>Research &amp; News</h3><p>The developments that matter—explained with context, not just headlines.</p></div></article>
+      </div>
+    </section>
+    <section class="section featured-section" id="featured" aria-labelledby="featured-title">
+      <div class="page-shell">
+        <div class="section-heading featured-heading"><div><p class="kicker">Featured explanations</p><h2 id="featured-title">Start with a question.</h2><p class="section-intro">A preview of the ideas we explore. Discover Beyond Gradients on Instagram and YouTube.</p></div><a class="text-link" data-platform="instagram" href="https://www.instagram.com/beyondgradients/" target="_blank" rel="noopener noreferrer">Explore Instagram <span aria-hidden="true">↗</span></a></div>
+        <!-- EXPLANATIONS:START -->
+        <div class="content-grid">
+          <article class="content-card">
+            <div class="card-visual"><svg viewBox="0 0 380 180" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#30415b" stroke-width="1"><path d="M30 45H350M30 90H350M30 135H350"/></g><text x="30" y="34" fill="#b9c7dc" font-family="monospace" font-size="13">The next token is…</text><text x="31" y="74" fill="#b9c7dc" font-family="monospace" font-size="12">a</text><rect x="82" y="60" width="174" height="21" rx="2" fill="#689cff" opacity="1"/><text x="272" y="75" fill="#b9c7dc" font-family="monospace" font-size="12">58%</text><text x="31" y="111" fill="#b9c7dc" font-family="monospace" font-size="12">the</text><rect x="82" y="97" width="82" height="21" rx="2" fill="#689cff" opacity="0.45"/><text x="272" y="112" fill="#b9c7dc" font-family="monospace" font-size="12">27%</text><text x="31" y="148" fill="#b9c7dc" font-family="monospace" font-size="12">one</text><rect x="82" y="134" width="45" height="21" rx="2" fill="#689cff" opacity="0.45"/><text x="272" y="149" fill="#b9c7dc" font-family="monospace" font-size="12">15%</text></svg></div>
+            <div class="card-body">
+              <div class="card-meta"><span>Transformers &amp; LLMs</span><span>Topic preview</span></div>
+              <h3>How does ChatGPT decide what to say next?</h3><p>From a sequence of tokens to a distribution of possibilities. Meet next-token prediction.</p>
+              <a class="card-link" href="https://www.youtube.com/@BeyondGradients" target="_blank" rel="noopener noreferrer" aria-label="Explore our YouTube: How does ChatGPT decide what to say next?">Explore our YouTube<span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="content-card">
+            <div class="card-visual"><svg viewBox="0 0 380 180" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#30415b" stroke-width="1"><path d="M30 45H350M30 90H350M30 135H350"/></g><rect x="112" y="18" width="24" height="23" rx="2" fill="#689cff" opacity="0.13"/><rect x="142" y="18" width="24" height="23" rx="2" fill="#689cff" opacity="0.44"/><rect x="172" y="18" width="24" height="23" rx="2" fill="#689cff" opacity="0.93"/><rect x="202" y="18" width="24" height="23" rx="2" fill="#689cff" opacity="0.25"/><rect x="232" y="18" width="24" height="23" rx="2" fill="#689cff" opacity="0.66"/><rect x="112" y="47" width="24" height="23" rx="2" fill="#689cff" opacity="0.66"/><rect x="142" y="47" width="24" height="23" rx="2" fill="#689cff" opacity="0.13"/><rect x="172" y="47" width="24" height="23" rx="2" fill="#689cff" opacity="0.44"/><rect x="202" y="47" width="24" height="23" rx="2" fill="#689cff" opacity="0.93"/><rect x="232" y="47" width="24" height="23" rx="2" fill="#689cff" opacity="0.25"/><rect x="112" y="76" width="24" height="23" rx="2" fill="#689cff" opacity="0.25"/><rect x="142" y="76" width="24" height="23" rx="2" fill="#689cff" opacity="0.66"/><rect x="172" y="76" width="24" height="23" rx="2" fill="#689cff" opacity="0.13"/><rect x="202" y="76" width="24" height="23" rx="2" fill="#689cff" opacity="0.44"/><rect x="232" y="76" width="24" height="23" rx="2" fill="#689cff" opacity="0.93"/><rect x="112" y="105" width="24" height="23" rx="2" fill="#689cff" opacity="0.93"/><rect x="142" y="105" width="24" height="23" rx="2" fill="#689cff" opacity="0.25"/><rect x="172" y="105" width="24" height="23" rx="2" fill="#689cff" opacity="0.66"/><rect x="202" y="105" width="24" height="23" rx="2" fill="#689cff" opacity="0.13"/><rect x="232" y="105" width="24" height="23" rx="2" fill="#689cff" opacity="0.44"/><rect x="112" y="134" width="24" height="23" rx="2" fill="#689cff" opacity="0.44"/><rect x="142" y="134" width="24" height="23" rx="2" fill="#689cff" opacity="0.93"/><rect x="172" y="134" width="24" height="23" rx="2" fill="#689cff" opacity="0.25"/><rect x="202" y="134" width="24" height="23" rx="2" fill="#689cff" opacity="0.66"/><rect x="232" y="134" width="24" height="23" rx="2" fill="#689cff" opacity="0.13"/><text x="30" y="95" fill="#b9c7dc" font-family="monospace" font-size="12">Q</text><text x="277" y="95" fill="#b9c7dc" font-family="monospace" font-size="12">Kᵀ</text></svg></div>
+            <div class="card-body">
+              <div class="card-meta"><span>Deep Learning</span><span>Topic preview</span></div>
+              <h3>How does attention actually work?</h3><p>See how a token combines information from other tokens to build a richer representation.</p>
+              <a class="card-link" href="https://www.instagram.com/beyondgradients/" target="_blank" rel="noopener noreferrer" aria-label="Explore our Instagram: How does attention actually work?">Explore our Instagram<span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="content-card">
+            <div class="card-visual"><svg viewBox="0 0 380 180" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#30415b" stroke-width="1"><path d="M30 45H350M30 90H350M30 135H350"/></g><path d="M65 143H327M91 160V22M67 162L283 29" stroke="#50617d" fill="none"/><path d="M91 143L207 64" stroke="#689cff" stroke-width="1.5"/><circle cx="207" cy="64" r="4" fill="#689cff"/><text x="217" y="69" fill="#b9c7dc" font-family="monospace" font-size="12">cat</text><path d="M91 143L246 43" stroke="#689cff" stroke-width="1.5"/><circle cx="246" cy="43" r="4" fill="#689cff"/><text x="256" y="48" fill="#b9c7dc" font-family="monospace" font-size="12">dog</text><path d="M91 143L169 112" stroke="#689cff" stroke-width="1.5"/><circle cx="169" cy="112" r="4" fill="#689cff"/><text x="179" y="117" fill="#b9c7dc" font-family="monospace" font-size="12">word</text></svg></div>
+            <div class="card-body">
+              <div class="card-meta"><span>Visual Mathematics</span><span>Topic preview</span></div>
+              <h3>Why does AI turn words into vectors?</h3><p>A geometric way to represent language—and why relationships matter more than coordinates.</p>
+              <a class="card-link" href="https://www.instagram.com/beyondgradients/" target="_blank" rel="noopener noreferrer" aria-label="Explore our Instagram: Why does AI turn words into vectors?">Explore our Instagram<span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="content-card">
+            <div class="card-visual"><svg viewBox="0 0 380 180" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#30415b" stroke-width="1"><path d="M30 45H350M30 90H350M30 135H350"/></g><path d="M42 33Q155 235 335 30" stroke="#536c92" stroke-width="2" fill="none"/><path d="M67 72L105 111L142 135L174 145L199 143" stroke="#689cff" stroke-width="2" fill="none"/><circle cx="67" cy="72" r="4" fill="#689cff"/><circle cx="105" cy="111" r="4" fill="#689cff"/><circle cx="142" cy="135" r="4" fill="#689cff"/><circle cx="174" cy="145" r="4" fill="#689cff"/><circle cx="199" cy="143" r="5" fill="#ef9b8c"/><text x="225" y="106" fill="#d9e2f0" font-family="monospace" font-size="19">−η∇L</text></svg></div>
+            <div class="card-body">
+              <div class="card-meta"><span>Machine Learning</span><span>Topic preview</span></div>
+              <h3>How does gradient descent learn?</h3><p>Follow the slope, update the parameters, repeat. The idea behind minimizing a loss function.</p>
+              <a class="card-link" href="https://www.youtube.com/@BeyondGradients" target="_blank" rel="noopener noreferrer" aria-label="Explore our YouTube: How does gradient descent learn?">Explore our YouTube<span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="content-card">
+            <div class="card-visual"><svg viewBox="0 0 380 180" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#30415b" stroke-width="1"><path d="M30 45H350M30 90H350M30 135H350"/></g><text x="33" y="45" fill="#d9e2f0" font-family="monospace" font-size="17">Fluent ≠ factual</text><rect x="34" y="67" width="264" height="4" rx="2" fill="#4a6285"/><rect x="34" y="80" width="223" height="4" rx="2" fill="#4a6285"/><rect x="34" y="93" width="248" height="4" rx="2" fill="#4a6285"/><path d="M35 130H234" stroke="#689cff" stroke-width="2"/><circle cx="266" cy="130" r="15" fill="none" stroke="#ef9b8c"/><text x="261" y="135" fill="#ef9b8c" font-family="monospace" font-size="16">?</text></svg></div>
+            <div class="card-body">
+              <div class="card-meta"><span>AI Systems</span><span>Topic preview</span></div>
+              <h3>Why can AI sound confident when it is wrong?</h3><p>Fluent language is not the same as factual knowledge. Explore the gap between the two.</p>
+              <a class="card-link" href="https://www.instagram.com/beyondgradients/" target="_blank" rel="noopener noreferrer" aria-label="Explore our Instagram: Why can AI sound confident when it is wrong?">Explore our Instagram<span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="content-card">
+            <div class="card-visual"><svg viewBox="0 0 380 180" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#30415b" stroke-width="1"><path d="M30 45H350M30 90H350M30 135H350"/></g><path d="M91 79H291M191 79V140" stroke="#506d99" fill="none"/><rect x="67" y="52" width="48" height="48" rx="3" fill="#192b46" stroke="#689cff"/><text x="83" y="83" fill="#b9d1fc" font-family="monospace" font-size="23">Q</text><rect x="166" y="52" width="48" height="48" rx="3" fill="#192b46" stroke="#689cff"/><text x="182" y="83" fill="#b9d1fc" font-family="monospace" font-size="23">K</text><rect x="265" y="52" width="48" height="48" rx="3" fill="#192b46" stroke="#689cff"/><text x="281" y="83" fill="#b9d1fc" font-family="monospace" font-size="23">V</text><text x="101" y="147" fill="#b9c7dc" font-family="monospace" font-size="12">match → weight → combine</text></svg></div>
+            <div class="card-body">
+              <div class="card-meta"><span>Transformers &amp; LLMs</span><span>Topic preview</span></div>
+              <h3>What do Queries, Keys and Values actually mean?</h3><p>Three learned projections. One mechanism for matching, weighting and combining information.</p>
+              <a class="card-link" href="https://www.youtube.com/@BeyondGradients" target="_blank" rel="noopener noreferrer" aria-label="Explore our YouTube: What do Queries, Keys and Values actually mean?">Explore our YouTube<span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+        <!-- EXPLANATIONS:END -->
+      </div>
+    </section>
+    <section class="philosophy" id="about" aria-labelledby="philosophy-title">
+      <div class="page-shell philosophy-grid">
+        <div><p class="kicker">Our point of view</p><h2 id="philosophy-title">Intuition without<br><span>hand-waving.</span></h2></div>
+        <div class="philosophy-copy"><p class="statement">Technical depth without unnecessary complexity.</p><p>Most AI explanations fall into one of two traps: they simplify away the important parts, or bury the idea beneath notation. Beyond Gradients bridges that gap—building a clear mental model first, then showing the technical structure that makes it true.</p></div>
+      </div>
+    </section>
+    <section class="follow-section" aria-labelledby="follow-title">
+      <div class="page-shell follow-panel">
+        <div class="follow-copy"><p class="kicker">Keep exploring</p><h2 id="follow-title">A clearer view of AI.<br>One idea at a time.</h2><p>Follow the questions, diagrams and ideas as they unfold.</p></div>
+        <div class="follow-links">
+          <a data-platform="instagram" href="https://www.instagram.com/beyondgradients/" target="_blank" rel="noopener noreferrer"><span><strong>Instagram</strong><small>Visual explainers &amp; AI news</small></span><b aria-hidden="true">↗</b></a>
+          <a data-platform="youtube" href="https://www.youtube.com/@BeyondGradients" target="_blank" rel="noopener noreferrer"><span><strong>YouTube</strong><small>Watch the ideas come together</small></span><b aria-hidden="true">↗</b></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="page-shell footer-grid">
+      <div><a class="brand footer-brand" href="#top"><span class="brand-mark"><img src="assets/beyond-grad-logo.png" alt="" width="36" height="36"></span><span>Beyond Gradients</span></a><p>AI <i>•</i> Machine Learning <i>•</i> Visual Explanations</p></div>
+      <div class="footer-links"><a data-platform="instagram" href="https://www.instagram.com/beyondgradients/" target="_blank" rel="noopener noreferrer">Instagram</a><a data-platform="youtube" href="https://www.youtube.com/@BeyondGradients" target="_blank" rel="noopener noreferrer">YouTube</a></div>
+      <div class="footer-meta"><span>© 2026 Beyond Gradients</span><a href="https://beyondgradients.com">beyondgradients.com</a></div>
+    </div>
+  </footer>
 </body>
 </html>
